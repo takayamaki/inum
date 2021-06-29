@@ -1,13 +1,6 @@
 name: run rspec
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
+  - push
 jobs:
   test:
     strategy:
